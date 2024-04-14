@@ -1,0 +1,76 @@
+.login{
+    width: 100%;
+    min-height: calc(120vh - 100px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url(../../images/curve-shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-position-y: 200px;
+    padding: 120px 0;
+}
+.login .card{
+    width: 720px;
+    height: 440px;
+    background-color: white;
+    border: 1px solid #ddd;
+    display: flex;
+    box-shadow: 3px 5px 12px  rgba(0, 0, 0, 0.2);
+}
+.login .card .login-form{
+    width: 50%;
+    height: 100%;
+    padding: 15px 20px;
+}
+.login .card .login-image{
+    width: 50%;
+    height: 100%;
+    /* background-color: #126FE9; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.login-image img{
+    width: 100%;
+}
+.login-form h2{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 30px;
+}
+.login-form .form-control{
+    width: 100%;
+    margin-bottom: 15px;
+}
+.login-form .form-control:nth-child(3){
+    display: flex;
+    align-items: baseline;
+}
+.login-form .form-control:last-child{
+    margin-top: 20px;
+}
+.login-form .form-control label{
+    margin-bottom: 10px;
+    display: block;
+    color: #333;
+}
+.login-form .form-control input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid silver;
+    
+    font-size: 16px;
+}
+.login-form .form-control button{
+    width: 45%;
+    height: 42px;
+    margin-top: 10px;
+    border: 1px solid #126FE9;
+    margin-right: 20px;
+}
+
+span{
+    font-size: 15px;
+    color: #444;
+}
